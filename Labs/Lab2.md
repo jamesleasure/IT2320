@@ -4,14 +4,29 @@ In this lab, we’ll take a first look at JavaScript development.
 
 *Instructions:*  
 1.	Create a folder called Lab02 in the root of your class repository – IT2320[FirstInitial][LastName]/Lab02.  Note: you can create the folder and files using Visual Studio Code.  
-2.	Create an HTML file called Lab02.html. Add a header to the page that says “Grocery Shopping Cost Calculator”.   
-3.	Write code that prompts a user to add grocery item cost.  Have the prompt default to a value of 1 and prompt the use with the following message – “Please enter the cost of your next item”. Parse the user’s entry into an integer value.   
-4.	Declare a variable for costSum with a starting value of 0.  Code a for statement that calculates the sum of the numbers.  This statement should use a counter variable with a starting value of 1, it should execute as long as the counter variable is less than or equal to the value of the user entry, and it should increment the count variable by 1 each time through the loop.   
-5.	Add an alert statement after the for statement that displays the calculated sum. [1 point]
-6.	Add an if statement that validates the user entry.  This statement should check if the entry is not a number, if it is less than 1, or if its greater than 100.  If any of these conditions are true, it should display an appropriate error message.   
-7.	Add a while statement that will continue prompting the user for an entry and displaying an error message until the entry is valid.   
-8.	Add a display to display the results so it read: “The total cost of your groceries is current “ + costSum.   
-9.	Make sure to Commit and Push your new folder and files to github.
-10.	Submit the path to your github repository folder..  You do not need to upload any files.
+2.	Create an HTML file called Lab02.html. Add a header to the page that says “Grocery Shopping Cost Calculator”. We'll use the following code (from Murach) as an example:
+```
+The HTML and JavaScript for the application <html> <head>
+<title>Average Test Scores</title> <script>
+var entry; var average; var total = 0;
+//get 3 scores from user and add them together entry = prompt("Enter test score"); entry = parseInt(entry); var score1 = entry; total = total + score1;
+entry = prompt("Enter test score"); entry = parseInt(entry); var score2 = entry; total = total + score2;
+entry = prompt("Enter test score"); entry = parseInt(entry); var score3 = entry; total = total + score3;
+//calculate the average average = parseInt(total/3);
+</script>
+</head> <body>
+<script>
+document.write("<h1>The Test Scores App</h1>"); document.write("Score 1 = " + score1 + "<br>" + "Score 2 = " + score2 + "<br>" + "Score 3 = " + score3 + "<br><br>" + "Average score = " + average + "<br><br>");
+</script> Thanks for using the Test Scores application!
+</body> </html>  
+```   
+3.	Prompt the user for 3 grocery items. Store these values in JavaScript variables item1, item2, and item3.   
+4. In addition to the item, ask the user for the cost of each item. Store these in variables cost1, cost2, and cost3. You will need to parse these values into numberic types.   
+5. Calculate a total cost from the 3 cost variables. Store the value in a variable called costTotal. 
+6. Calculate a tax amount from total cost. Assume the tax amount is 7%. Store this in a variable called costTax.
+7. Create a variable called costTotalWithTax. This should be costTotal + costTax.
+8. Use document.write statements to output 1) each item with its cost, 2) the total before taxes, 3) total amount of tax, and 4) total with tax. Try to format it nicely so it appears like a receipt. You could add a fun fictitious name for the grocery store.
+9. Make sure all of your files are saved. Then Commit and Push your new folder and files to github. It would be a good idea to visit github.com to make sure all of the changes were successfully pushed.
+10.	In Blackboard, submit the path to your github repository folder.  Please do not upload any files.
 
 
