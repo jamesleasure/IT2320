@@ -4,7 +4,7 @@ In this lab, we’ll take a first look at JavaScript development.
 
 *Instructions:*  
 1.	Create a folder called Lab02 in the root of your class repository – IT2320[FirstInitial][LastName]/Lab02.  Note: you can create the folder and files using Visual Studio Code.  
-2.	Create an HTML file called Lab02.html. Add a header to the page that says “Grocery Shopping Cost Calculator”. We'll use the following code (from Murach) as an example:
+2.	Create an HTML file called Lab02.html. Add a header to the page that says “Grocery Shopping Cost Calculator”. You can use the following code (from Murach) as an example:
 ```
 The HTML and JavaScript for the application <html> <head>
 <title>Average Test Scores</title> <script>
