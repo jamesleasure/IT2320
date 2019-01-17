@@ -1,6 +1,6 @@
 ## IT 2320 – Lab 2
 
-In this lab, we’ll take a first look at JavaScript development.  
+In this lab, we’ll write our first JavaScript application. 
 
 *Instructions:*  
 1.	Create a folder called Lab02 in the root of your class repository – IT2320[FirstInitial][LastName]/Lab02.  Note: you can create the folder and files using Visual Studio Code.  
