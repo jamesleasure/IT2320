@@ -52,7 +52,7 @@ Thanks for using the Test Scores application!
 5. Calculate a total cost from the 3 cost variables. Store the value in a variable called costTotal. 
 6. Calculate a tax amount from total cost. Assume the tax amount is 7%. Store this in a variable called costTax.
 7. Create a variable called costTotalWithTax. This should be costTotal + costTax.
-8. Use document.write statements to output. *Try to format it nicely so it appears like a receipt. You could add a fun fictitious name for the grocery store.*     
+8. Use document.write statements to output the following values. Note: see the example how they output each test score and the average. *Try to format it nicely so it appears like a receipt. You could add a fun fictitious name for the grocery store.*     
     1. each item with its cost,  
     2. the total before taxes,   
     3. total amount of tax, and   
