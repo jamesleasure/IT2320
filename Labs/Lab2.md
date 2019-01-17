@@ -8,7 +8,8 @@ In this lab, we’ll write our first JavaScript application.
 ```
 <html>   
 <head>    
-<title>Average Test Scores</title> <script>  
+<title>Average Test Scores</title>   
+<script>  
 var entry;   
 var average;   
 var total = 0;  
