@@ -48,7 +48,7 @@ Thanks for using the Test Scores application!
 </body>   
 </html>    
 ```   
-3. Instead of text scores, our page will ask users to input grocery items and costs. Prompt the user for 3 grocery items (this is the name of the item). Store these values in JavaScript variables item1, item2, and item3.   
+3. Instead of test scores, our page will ask users to input grocery items and costs. Prompt the user for 3 grocery items (this is the name of the item). Store these values in JavaScript variables item1, item2, and item3.   
 4. In addition to the items, ask the user for the cost of each item. Store these in variables cost1, cost2, and cost3. You will need to parse these values into numberic types.   
 5. Calculate a total cost from the 3 cost variables. Store the value in a variable called costTotal. 
 6. Calculate a tax amount from total cost. Assume the tax amount is 7%. Store this in a variable called costTax.
