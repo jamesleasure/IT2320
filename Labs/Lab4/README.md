@@ -7,7 +7,7 @@ In this lab, we'll practice using JavaScript functions.
 2. Copy the HTML file Lab4.html to your repository. Note: you can click on "Raw" to view the HTML contents if you want to copy the HTML itself. 
 3. Modify the HTML to create a working calculator using the following requirements:
      1. Create 2 global page variables: operand1 and operand2.
-     2. Add an event to both html elements operand1 and operand2 that updates the value of the variables from the html elements' values. Note: they should be string values. We will convert them to numeric values inside of functions.
+     2. Note: you should read these in when the user clicks on one of the buttons add(), subtract(), multiply(), or divide(). they should be string values. We will convert them to numeric values inside of functions.
      3. Create functions and attach them to the events for the buttons on the page for add(), subtract(), multiple(), and divide. In these functions:
           1. Convert the values of operand1 and operand2 to numeric values, compute the arithmetic operation, and populate the result element with the result. 
           2. Clear the values of operand1 and operand2.
