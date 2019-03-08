@@ -11,7 +11,7 @@ Download and open the attached file - Lab10.html.  Keep a separate copy of the f
 3.	Add another input text box with id=“phone”, name=“phone”.  Use the appropriate HTML5 data control for phone numbers.  Display the following Placeholder value “Mobile Phone (999-999-9999)” prior to the user entering text into the control. 
 4.	Use HTML5 data validation attributes to validate the phone number.  Ensure that the user enters a pattern similar to 999-999-9999.  Display the tooltip “Must be formatted as 999-999-9999”
 5.	Use HTML5 data validation attributes to make every field required.
-6.	Save Lab07-HTMLValidate.html and make sure it is pushed to your remote repository.
+6.	Save Lab10-HTMLValidate.html and make sure it is pushed to your remote repository.
 
 #Part 2: JavaScript Validation
 1.	Copy the original Lab10.html to Lab10-JSValidate.html (make sure it’s the original file and not the one you modified for part 1).
@@ -23,7 +23,7 @@ Download and open the attached file - Lab10.html.  Keep a separate copy of the f
 7.	Make sure your Lab10-JSValidate.html file is pushed to your remote repository.
 
 #Part 3: JQuery Validation
-1.	Copy Lab07-JSValidate.html to Lab10-jQueryValidate.html.  Keep the changes you made in Part 2.
+1.	Copy Lab10-JSValidate.html to Lab10-jQueryValidate.html.  Keep the changes you made in Part 2.
 2.	Modify the file, so that it uses jQuery (not the jQuery Validate Plug-In).  You will need to 1) remove the onsubmit attribute, 2) add the jQuery CDNs, 3) add document.ready, 4) create a function for the form submit, and 5) modify validateForm() so it uses jQuery syntax and event.preventDefault().
 3.	Make sure Lab10-jQueryValidate.html is pushed to your remote repository.
 
@@ -32,6 +32,5 @@ Download and open the attached file - Lab10.html.  Keep a separate copy of the f
 1.	Part 1 - Lab10-HTMLValidate.html 
 2.	Part 2 - Lab10-JSValidate.html
 3.	Part 3 - Lab10-jQueryValidate.html
-4.	Part 4 - Lab07-jQueryPlugin.html
 
 Check your repositories at www.github.com to make sure the files were pushed successfully!
