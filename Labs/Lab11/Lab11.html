@@ -3,11 +3,18 @@
 <style>
 body, button {font-size: 0.9em; font-family: Helvetica, sans-serif }
 td { text-align: center; padding: 8 8 8 8; }
+span.input { font-weight: bold; }
 h1 { color: navy; }
 h2 { color: teal; }
+button { color: orange; font-weight: bold; padding: 8 8 8 8; border-radius: 8px; }
+.instructions { font-weight: normal; font-style: italic; }
 </style>
 <script>
 function showExamples() {
+
+    // Note: Please include all code after the comments with the questions. For example notice
+    // how there is code after the Step 1 comment and the code is followed by the comment for step 2. 
+    // I will be looking for the comments and then your code immediately following them. 
 
     // Step 1 - Read in testNumber and testString
     //          Populate testDate with the current date
@@ -22,7 +29,7 @@ function showExamples() {
     // Step 2 - Populate the html spans testNumber5, testNumber2, and testNumber0 with "testNumber". 
     //          Use toFixed() to output different numbers of decimals for each 5, 2, and 0
     //          Note: you need to parse!
-    // Example (you still need to add the toFixed()):
+    // Example (you still need to add the toFixed() and error checking):
     document.getElementById('testNumber5').innerHTML = testNumber;
 
     // Step 3 - Using the value of testNumber populate the math functions accordingly.
@@ -47,12 +54,15 @@ function showExamples() {
 }
 </script>
 </head>
+<span class="input">
 <h1>Numbers, Strings, and Dates</h1>
+<span class="instructions">Enter a floating point number and a string that is at least 3 characters in length and click 'Show Examples'.</span><br><br>
 Input Number<br>
 <input id="testNumber"><span class="error"></span><br><br>
 Input String<br>
 <input id="testString"><span class="error"></span><br><br>
 <button id="showExamples" onclick="showExamples()">Show Examples</button><br>
+</span>
 <br><br>
 <h2>Fixed Decimals</h2>
 <table>
