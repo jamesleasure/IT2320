@@ -1,0 +1,122 @@
+<html>
+<head>
+<style>
+body, button {font-size: 0.9em; font-family: Helvetica, sans-serif }
+td { text-align: center; padding: 8 8 8 8; }
+h1 { color: navy; }
+h2 { color: teal; }
+</style>
+<script>
+function showExamples() {
+
+    // Step 1 - Read in testNumber and testString
+    //          Populate testDate with the current date
+    //          Make sure the test number is a number and the string is not empty
+    //              Display an error message in the span following the inputs if they're not
+    // Example:
+    var testNumber = parseFloat(document.getElementById("testNumber").value);
+    var testString;
+    var testDate;
+
+
+    // Step 2 - Populate the html spans testNumber5, testNumber2, and testNumber0 with "testNumber". 
+    //          Use toFixed() to output different numbers of decimals for each 5, 2, and 0
+    //          Note: you need to parse!
+    // Example (you still need to add the toFixed()):
+    document.getElementById('testNumber5').innerHTML = testNumber;
+
+    // Step 3 - Using the value of testNumber populate the math functions accordingly.
+    //          Use html elements testCeiling, testSquareRoot, testFloor, and testPower to display results
+
+
+    // Step 4 - Populate testRandomNumber with a random number
+
+    // Step 5 - Find the index of letter a in testString. Display the results in testIndexOfA
+
+    // Step 6 - Concatenate "The String is: " to the begining of testString. Display the results in testConcatStr
+
+    // Step 7 - Display the first 3 letters of the string in testFirstThree
+
+    // Step 8 - Diplay testString in all uppercase and all lowercase in testUppercase and testLowercase
+
+    // Step 9 - Display the full date in currentDate
+
+    // Step 10 - Display the year and a string version of month in testYear and testMonth
+    //          Here's some help. Especially for month: https://www.w3schools.com/js/js_date_methods.asp
+    
+}
+</script>
+</head>
+<h1>Numbers, Strings, and Dates</h1>
+Input Number<br>
+<input id="testNumber"><span class="error"></span><br><br>
+Input String<br>
+<input id="testString"><span class="error"></span><br><br>
+<button id="showExamples" onclick="showExamples()">Show Examples</button><br>
+<br><br>
+<h2>Fixed Decimals</h2>
+<table>
+    <tr>
+        <td>toFixed(5)</td>
+        <td>toFixed(2)</td>
+        <td>toFixed(0)</td>
+    </tr>
+    <tr>
+        <td><span id="testNumber5"> - </span></td>
+        <td><span id="testNumber2"> - </span></td>
+        <td><span id="testNumber0"> - </span></td>
+    </tr>
+</table>
+<br><br>
+<h2>Math Functions</h2>
+<table>
+    <tr>
+        <td>ceiling</td>
+        <td>floor</td>
+        <td>raised to the power of 3</td>
+        <td>square root</td>
+    </tr>
+    <tr>
+            <td><span id="testCeiling"> - </span></td>
+            <td><span id="testFloor"> - </span></td>
+            <td><span id="testPower"> - </span></td>
+            <td><span id="testSquareRoot"> - </span></td>
+    </tr>
+</table>
+<h2>Random Number</h2>
+<table>
+    <tr>
+        <td><span id="testRandomNumber"> - </td>
+    </tr>
+</table>
+<h2>String Functions</h2>
+<table>
+    <tr>
+        <td>Index Of a</td>
+        <td>String with Concatenation</td>
+        <td>First 3 letters</td>
+        <td>Upper Case</td>
+        <td>Lower Case</td>
+    </tr>
+    <tr>
+        <td><span id="testIndexOfA"> - </span></td>
+        <td><span id="testConcatStr"> - </span></td>
+        <td><span id="testFirstThree"> - </span></td>
+        <td><span id="testUppercase"> - </span></td>
+        <td><span id="testLowercase"> - </span></td>
+    </tr>
+</table>
+<h2>Date : <span id="currentDate"> - </span></h2>
+<body>
+<table>
+    <tr>
+        <td>Year</td>
+        <td>Month</td>
+    </tr>
+    <tr>
+        <td id="testYear"> - </td>
+        <td id="testMonth"> - </td>
+    </tr>
+</table>
+</body>
+</html>
